@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+    		*{
+    		margin:0;
+    		padding:0;
+    		}
+    		
+    		.menu{
+    		    display: flex;
+			    align-items: center;
+			    justify-content: space-between;
+			    background: #CFD5FF;
+			    font-family: Italiana;
+				font-size: 40px;
+				font-weight: 300;
+				padding:20px;
+				line-height: 47.12px;
+			    
+    		}
+    		
+    		.menu-vertical{
+    		display: flex;
+		    flex-direction: column;
+		    position: absolute;
+		    height:100%;
+		    background: #3C3C81;
+		    
+    		}
+    		
+    		.menu-vertical-elemento{
+    		width: 105px;
+			height: 140px;
+    		margin-top: 50px;
+    		margin-left:30px;
+    		font-family: Asul;
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 18.2px;
+			color:white;
+			aling:center;
+    		
+    		}
+    		
+    		.menu-vertical-img{
+			width: 70px;
+			height: 70px;
+    		
+    		}
